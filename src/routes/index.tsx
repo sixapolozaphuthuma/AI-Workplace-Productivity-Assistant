@@ -177,7 +177,7 @@ function ChatInner({ initial }: { initial: UIMessage[] }) {
           ) : (
             messages.map((message) => (
               <Message key={message.id} from={message.role}>
-                <MessageContent variant={message.role === "user" ? "contained" : "flat"}>
+                <MessageContent >
                   {message.parts.map((part, idx) => {
                     if (part.type === "text") {
                       return message.role === "assistant" ? (
@@ -204,7 +204,7 @@ function ChatInner({ initial }: { initial: UIMessage[] }) {
           )}
           {status === "submitted" && (
             <Message from="assistant">
-              <MessageContent variant="flat">
+              <MessageContent>
                 <Shimmer>Thinking…</Shimmer>
               </MessageContent>
             </Message>
