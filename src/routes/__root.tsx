@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "WorkMate AI — Workplace Productivity Assistant" },
       { name: "description", content: "AI assistant for drafting emails, summarizing meetings, planning your week, and research." },
       { name: "author", content: "WorkMate AI" },
-      { property: "og:title", content: "WorkMate AI" },
+      { property: "og:title", content: "WorkMate AI — Workplace Productivity Assistant" },
       { property: "og:description", content: "AI assistant for drafting emails, summarizing meetings, planning your week, and research." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "WorkMate AI — Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "AI assistant for drafting emails, summarizing meetings, planning your week, and research." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dd7352af-9be4-4706-85aa-87b3008d96cb/id-preview-3eda3b5d--3fc5daf6-6609-4cf5-a6f7-1cf73a8da285.lovable.app-1781789786272.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dd7352af-9be4-4706-85aa-87b3008d96cb/id-preview-3eda3b5d--3fc5daf6-6609-4cf5-a6f7-1cf73a8da285.lovable.app-1781789786272.png" },
     ],
     links: [
       {
